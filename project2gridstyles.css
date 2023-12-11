@@ -3,17 +3,17 @@
    Author: Kenneth Ochoa
    Date:   11/21/23
 */
-
+ 
 
 /* Grid Structure */
-body {    display: grid; grid-template-columns: 2fr 6fr 2fr; grid-template-areas: 
+body {    display: grid; grid-template-columns: 3fr 7fr 3fr; grid-template-areas: 
     "header header  header"   
     "navigate  navigate  navigate"  
     "leftContent main rightContent"      
     "footing  footing footing";
     grid-column-gap: 15px;
-    grid-row-gap: 80px;
-    grid-template-rows: 70px 55px 550px 80px;
+    grid-row-gap: 8%;
+    grid-template-rows: 10% 8% 65% 10%;
 }
 /* Grid content locations */
 body > header {    grid-area:header; 
@@ -43,6 +43,9 @@ h1 {
      border-style:groove;
      border-color:rgb(212, 166, 28);
 }
+h3 {font-family:Arial, Helvetica, sans-serif; text-align:center;
+
+}
 /*navigation, link, and list styles */
 
 nav {color:rgba(228, 76, 195, 0.78); 
@@ -66,7 +69,7 @@ body {background-color:rgb(110, 161, 243);
 
 }
 
-/*content styles */
+/*General content styles */
 
 article {background-color:rgb(228, 199, 113);
 border-color:rgb(190, 165, 90);
@@ -78,7 +81,9 @@ font-family:Arial, Helvetica, sans-serif;
 }
 article > h2 {font-family:Arial, Helvetica, sans-serif; text-align:center;
 }
+article > h4{font-family:Arial, Helvetica, sans-serif; text-align:center;
 
+}
 section {background-color:rgb(228, 199, 113);
     border-color:rgb(190, 165, 90);
     border-style:groove;
@@ -100,6 +105,37 @@ aside {background-color:rgb(228, 199, 113);
     }
 aside > h4 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:17px;
 }
+
+/*Form styles */
+form {font-size:80%; font-family:Arial, Helvetica, sans-serif; text-align:left;
+
+}
+
+/*Image Gallery */
+div.gallery {
+    margin: 10px;
+    border: 2px solid rgb(190, 165, 90);
+    float: left;
+    width: 225px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #64dcf1;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size:13px;
+  }
+
+
+
 /* footer styles */
 
 footer {text-align:center;
