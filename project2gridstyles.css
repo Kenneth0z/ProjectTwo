@@ -43,8 +43,7 @@ h1 {
      border-style:groove;
      border-color:rgb(212, 166, 28);
 }
-h3 {font-family:Arial, Helvetica, sans-serif; text-align:center;
-
+h3 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size: 24px;
 }
 /*navigation, link, and list styles */
 
@@ -70,7 +69,8 @@ body {background-color:rgb(110, 161, 243);
 }
 
 /*General content styles */
-
+p {color: rgb(3, 11, 90);font-family:Arial, Helvetica, sans-serif;
+}
 article {background-color:rgb(228, 199, 113);
 border-color:rgb(190, 165, 90);
 border-style:groove;
@@ -79,9 +79,9 @@ font-size:20px;
 font-family:Arial, Helvetica, sans-serif;
 
 }
-article > h2 {font-family:Arial, Helvetica, sans-serif; text-align:center;
+article > h2 {font-family:Arial, Helvetica, sans-serif; text-align:center;color: rgb(3, 11, 90);
 }
-article > h4{font-family:Arial, Helvetica, sans-serif; text-align:center;
+article > h4{font-family:Arial, Helvetica, sans-serif; text-align:center;color: rgb(3, 11, 90);
 
 }
 section {background-color:rgb(228, 199, 113);
@@ -134,6 +134,27 @@ div.gallery {
     font-size:13px;
   }
 
+
+/*Accordion styles*/
+.accordion {background-color:rgb(228, 199, 113); color:rgb(234, 77, 103); font-size:80%; 
+  --bs-accordion-border-color: rgb(135, 117, 63);
+}
+.accordion-button:not(.collapsed){background-color:rgb(238, 199, 82); border-color:rgb(228, 199, 113);}
+.accordion-body {background-color:rgb(234, 219, 173); color: rgb(3, 11, 90);font-size:80%; font-family:Arial, Helvetica, sans-serif;
+
+}
+.accordion-transition{background-color:rgb(238, 199, 82);  color: rgb(3, 11, 90);}
+.accordion-button:focus{background-color:rgb(238, 199, 82); border-color:rgb(228, 199, 113); color:rgb(234, 77, 103);}
+.accordion-button {color: rgb(3, 11, 90);background-color:rgb(238, 199, 82); border-color:rgb(251, 210, 88);
+ 
+}
+
+/*Card image styles */
+.card-body {background-color: rgb(234, 219, 173); 
+ 
+}
+ .card-title {text-align:center; color:rgb(3, 11, 90); text-decoration:underline;}
+.card {font-size:65%;color:rgb(3, 11, 90); }
 
 
 /* footer styles */
