@@ -26,7 +26,7 @@ body > section {grid-area: leftContent;
 }
 body > footer {grid-area: footing;
 }
-header > h1 { grid-area:header; text-align:center;
+header > h1 { grid-area:header; text-align:center; margin-top:2%;
 }
 body > nav {grid-area:navigate; 
 
@@ -43,7 +43,7 @@ h1 {
      border-style:groove;
      border-color:rgb(212, 166, 28);
 }
-h3 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size: 24px;
+h3 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size: 24px; color:rgb(3, 11, 90);
 }
 /*navigation, link, and list styles */
 
@@ -62,11 +62,16 @@ nav > a{color:rgb(3, 11, 90); font-family:Arial, Helvetica, sans-serif; text-dec
 a{color:rgb(234, 77, 103); text-decoration: none;
 
 }
+ul{font-family:Arial, Helvetica, sans-serif; color:rgb(3, 11, 90); font-size:20px;
+
+}
+
 /*Body styles*/
 
 body {background-color:rgb(110, 161, 243);
 
 }
+
 
 /*General content styles */
 p {color: rgb(3, 11, 90);font-family:Arial, Helvetica, sans-serif;
@@ -79,6 +84,9 @@ font-size:20px;
 font-family:Arial, Helvetica, sans-serif;
 
 }
+.centerP {text-align:center;color: rgb(3, 11, 90); font-family:Arial, Helvetica, sans-serif;
+}
+.sideText {font-size:20px ;}
 article > h2 {font-family:Arial, Helvetica, sans-serif; text-align:center;color: rgb(3, 11, 90);
 }
 article > h4{font-family:Arial, Helvetica, sans-serif; text-align:center;color: rgb(3, 11, 90);
@@ -92,7 +100,7 @@ section {background-color:rgb(228, 199, 113);
     font-family:Arial, Helvetica, sans-serif;
     
     }
-section > h4 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:17px;
+section > h4 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:17px;color: rgb(3, 11, 90);
 }
 
 aside {background-color:rgb(228, 199, 113);
@@ -103,14 +111,16 @@ aside {background-color:rgb(228, 199, 113);
     font-family:Arial, Helvetica, sans-serif;
    
     }
-aside > h4 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:17px;
+aside > h4 {font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:17px; color: rgb(3, 11, 90);
 }
 
 /*Form styles */
 form {font-size:80%; font-family:Arial, Helvetica, sans-serif; text-align:left;
 
 }
+label {color:rgb(3, 11, 90);font-family:Arial, Helvetica, sans-serif;
 
+}
 /*Image Gallery */
 div.gallery {
     margin: 10px;
@@ -170,3 +180,5 @@ footer {text-align:center;
     padding:10px
     
 }
+
+
